@@ -1,0 +1,24 @@
+#homePage{width: 100%;}
+#homePage::before{background-image: url(../images/backgrounds/homeBg.jpg);}
+#welcomeH1{
+    background: linear-gradient(180deg,blue,grey);
+    color: white;
+    text-align: center;
+    position: relative; bottom: 20px;
+}
+
+#navBar{display: flex;flex-direction:row;justify-content: space-around;}
+
+#welcomeP{text-align: center;
+font-size: 25px;}
+
+#slideInLogo{
+    position: relative; left: 45%;
+}
+
+#cartItems{
+    background: linear-gradient(white,grey);
+font-size: 20px;
+    border: 1px black solid;
+    border-radius: 20%;
+}
