@@ -99,63 +99,63 @@ function nextImg2() {
 nextImg2()
 
 
-ToolsAddToCart24.onclick=()=>{
+ToolsAddToCart24.onclick = () => {
     cartProducts.push(products[24])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart25.onclick=()=>{
+ToolsAddToCart25.onclick = () => {
     cartProducts.push(products[25])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart26.onclick=()=>{
+ToolsAddToCart26.onclick = () => {
     cartProducts.push(products[26])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart27.onclick=()=>{
+ToolsAddToCart27.onclick = () => {
     cartProducts.push(products[27])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart28.onclick=()=>{
+ToolsAddToCart28.onclick = () => {
     cartProducts.push(products[28])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart29.onclick=()=>{
+ToolsAddToCart29.onclick = () => {
     cartProducts.push(products[29])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart30.onclick=()=>{
+ToolsAddToCart30.onclick = () => {
     cartProducts.push(products[30])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart31.onclick=()=>{
+ToolsAddToCart31.onclick = () => {
     cartProducts.push(products[31])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart32.onclick=()=>{
+ToolsAddToCart32.onclick = () => {
     cartProducts.push(products[32])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart33.onclick=()=>{
+ToolsAddToCart33.onclick = () => {
     cartProducts.push(products[33])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart34.onclick=()=>{
+ToolsAddToCart34.onclick = () => {
     cartProducts.push(products[34])
-        addCartNum()
+    addCartNum()
 
 }
-ToolsAddToCart35.onclick=()=>{
+ToolsAddToCart35.onclick = () => {
     cartProducts.push(products[35])
-        addCartNum()
+    addCartNum()
 
 }
