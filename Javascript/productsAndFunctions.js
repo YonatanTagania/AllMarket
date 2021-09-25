@@ -547,5 +547,4 @@ function addCartNum() {
     let addedProduct = cartItems.innerText
     addedProduct++
     cartItems.innerText = addedProduct
-    console.log(cartProducts);
 }
