@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>All market</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,29 +13,67 @@
     <header>
         <nav>
             <ul id="navBar">
-                <li>Home</li>
-                <li>Food</li>
-                <li>Tvs and Consoles</li>
-                <li>Work Tools</li>
-                <li>SmartPhones</li>
+                <li class="navBarItems"><a href="#">Home page</li></a>
+                <li class="navBarItems"><a href="./HTML/Food.html">Food</a></li>
+                <li class="navBarItems"><a href="./HTML/TvsAndConsoles.html">Tvs and Consoles</li></a>
+                <li class="navBarItems"><a href="./HTML/WorkTools.html">Work Tools</a></li>
+                <li class="navBarItems"><a href="./HTML/smartPhones.html">SmartPhones</a></li>
+                <li id="navBarCart"><a href="./HTML/cart.html">Cart</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="homePage">
-      <a id="slideInLogo"  href="#"><img src="images/logo/logo.png" alt="logo" width="150px" height="150px";></a>
-        <h1 id="welcomeH1">Welcome to All Market</h1>
-        <p id="welcomeP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi necessitatibus sequi officiis veritatis eius?
-            Harum id exercitationem quisquam beatae eaque iure ipsa quae maiores autem quasi. Cumque quis nemo officia
-            velit, ducimus repudiandae atque minima beatae quibusdam, eveniet nihil quaerat a, aspernatur non laboriosam
-            provident quia omnis asperiores. Fugiat, consequuntur.
-        </p>
-        <a ><img src="./images/logo/cartLogo.jpg" alt="cart" width="50px" height="50px"></a><span id="cartItems">0</span>
+            <article id="cartLocaction">
+                <a><img src="./images/logo/cartLogo.png" alt="cart" width="50px" height="50px">
+                    <span id="cartItems"></span>
+                    <a href="./HTML/cart.html"><button id="toCart">go to cart</button></a>
+            </article>
+            <article id="welcomeInfo">
+                <br>
+                <a href="#"><img id="logo" src="images/logo/logo.png" alt="logo" width="150px" height="150px" ;></a>
+                <h1 id="welcomeH1">Welcome to All Market</h1>
+                <p id="welcomeP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi necessitatibus sequi
+                    officiis veritatis eius?
+                    Harum id exercitationem quisquam beatae eaque iure ipsa quae maiores autem quasi. Cumque quis nemo
+                    officia
+                    velit, ducimus repudiandae atque minima beatae quibusdam, eveniet nihil quaerat a, aspernatur non
+                    laboriosam
+                    provident quia omnis asperiores. Fugiat, consequuntur.
+                </p>
+            </article>
+            <article id="displayImages">
+                <img src="./images/backgrounds/tvsconsolesBg.jpg" width="400px" ; height="400px" ; alt="homeDisplayed1">
+                <span id="changingImages">
+                    our products<br>
+                    <img src="./images/backgrounds/homeBg.jpg" id="images1" width="300px" ; height="350px" ;
+                        alt="changeingImage1">
+                </span>
+                <img src="./images/backgrounds/foodBg.jpg" width="400px" ; height="400px" ; alt="homeDisplayed2">
+            </article>
+            <br>
+
         </section>
     </main>
     <footer>
-
+        <nav id="FotterNav1">
+            <ul>
+                <li class="Bottomnav1"><span>go to cart: </span><a href="./HTML/cart.html"><img class="Footer1Img"
+                            src="./images/logo/cartLogo.png" alt="Twitter" height="42px" width="55px"></a></li>
+                <li class="Bottomnav1"><span>our instagram: </span><a href="https://www.instagram.com"
+                        target="_blank"><img class="Footer1Img" src="./images/logo/InstagramLogo.png" height="35px"
+                            width="35px"> </a> </li>
+                <li class="Bottomnav1"><span>Yonatan Tagania ©: </span> <a href="https://github.com/YonatanTagania"
+                        target="_blank"><img class="Footer1Img" src="./images/logo/GitLogo.jpg" alt="Git" height="45px"
+                            width="45px"> </a> </li>
+                <li class="Bottomnav1"> <span>email: </span> <a href="mailto:FakeMail@mail.com" target="_blank"><img
+                            src="./images/logo/EmailPhoto.png" alt="Email" height="35px" width="35px"> </a> </li>
+                <li class="Bottomnav1"><span>UP: </span> <a href="#"><img class="Footer1Img"
+                            src="./images/logo/UpArrow.png" alt="UpArrow" height="35px" width="35px"> </a></li>
+            </ul>
+        </nav>
     </footer>
+    <script src="Javascript/productsAndFunctions.js"></script>
     <script src="Javascript/main.js"></script>
 </body>
 

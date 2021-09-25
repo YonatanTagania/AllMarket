@@ -1,8 +1,9 @@
-console.log("hello");
-var addToCart=1;
-slideInLogo.onclick=()=>{
-    addToCart++
-cartItems.innerText=addToCart
+
+function cartArray() {
+    let cartProducts = []
+    cartItems.innerText = cartProducts.length
+
 }
+cartArray()
 
-
+imageChange3()

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="navBar">
+                <li class="navBarItems"><a href="../index.html">Home page</a></li>
+                <li class="navBarItems"><a href="./Food.html">Food</a></li>
+                <li class="navBarItems"><a href="./TvsAndConsoles.html">Tvs and Consoles</a></li>
+                <li class="navBarItems"><a href="./WorkTools.html">Work Tools</a></li>
+                <li class="navBarItems"><a href="./smartPhones.html">SmartPhones</a></li>
+                <li id="navBarCart"><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="cartArea">
+                <br>
+                <a href="../index.html"><img id="logo" src="../images/logo/logo.png" alt="logo" width="150px"
+                        height="150px" ;></a>
+                <h1 id="cartWelcomeH1">Please complete your parchuse</h1>
+            </article>
+            <article id="tableArticle">
+                <table id="cartTable">
+                    <tr>
+                        <th>product id</th>
+                        <th>name</th>
+                        <th>price</th>
+                        <th>image</th>
+                        <th>description</th>
+                        <th></th>
+                    </tr>
+                    <tr id="trOne"></tr>
+                    <tr id="trTwo"></tr>
+                    <tr id="trThree"></tr>
+                </table>
+
+            </article>
+            <article id="payForCart">
+                <p id="payP">you have <span id="numOfItemsInCart"></span> items in your cart, total amount to pay is
+                    <span id="amountToPay"></span> NIS
+                </p>
+
+                <button id="clickToPay">pay now!</button>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <nav id="FotterNav1">
+            <ul>
+                <li class="Bottomnav1"><span>go to cart: </span>
+                    <a href="#"><img class="Footer1Img" src="../images/logo/cartLogo.png" alt="Twitter" height="42px"
+                            width="55px"></a>
+                </li>
+                <li class="Bottomnav1"><span>our instagram: </span>
+                    <a href="https://www.instagram.com" target="_blank"><img class="Footer1Img"
+                            src="../images/logo/InstagramLogo.png" height="35px" width="35px"> </a>
+                </li>
+                <li class="Bottomnav1"><span>Yonatan Tagania ©: </span>
+                    <a href="https://github.com/YonatanTagania" target="_blank"><img class="Footer1Img"
+                            src="../images/logo/GitLogo.jpg" alt="Git" height="45px" width="45px"> </a>
+                </li>
+                <li class="Bottomnav1"> <span>email: </span>
+                    <a href="mailto:FakeMail@mail.com" target="_blank"><img src="../images/logo/EmailPhoto.png"
+                            alt="Email" height="35px" width="35px"> </a>
+                </li>
+                <li class="Bottomnav1"><span>UP: </span>
+                    <a href="#"><img class="Footer1Img" src="../images/logo/UpArrow.png" alt="UpArrow" height="35px"
+                            width="35px"> </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../Javascript/productsAndFunctions.js"></script>
+    <script src="../Javascript/Cart.js"></script>
+</body>
+
+</html>

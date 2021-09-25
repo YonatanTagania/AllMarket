@@ -1,0 +1,211 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../images/backgrounds/tvsconsolesBg.jpg);
+    background-size: 120%;
+    background-repeat: repeat;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBarItems {
+    flex-basis: 16.5%;
+    background: rgba(255, 255, 255, 0.9);
+    transition: 1s;
+    box-shadow: 2px 2px 13px 6px black;
+    display: inline-block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.navBarItems a {
+    color: black;
+    text-decoration: none;
+}
+
+.navBarItems:hover {
+    border: solid black 3px;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+#navBarCart {
+    flex-basis: 16.5%;
+    background: rgb(1, 155, 0.9);
+    color: white;
+    transition: 1s;
+    box-shadow: 2px 2px 13px 6px black;
+    display: inline-block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+#navBarCart a {
+    color: white;
+    text-decoration: none;
+}
+
+#navBarCart:hover {
+    border: solid black 3px;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+#cartItems {
+    background: linear-gradient(white, grey);
+    font-size: 24px;
+    font-weight: bolder;
+    border: 1px black solid;
+    border-radius: 20%;
+}
+
+#cartLocaction {
+    position: fixed;
+    background: rgba(141, 137, 137, 0.75);
+    width: 80px;
+    transition: ease-in-out 1s;
+    height: 87px;
+    bottom: 10%;
+    z-index: 1;
+}
+
+#toCart {
+    font-weight: bolder;
+    font-size: 14.3px;
+    color: black;
+    border: solid black 1px;
+    background: linear-gradient(white, grey);
+}
+
+#logo {
+    transition: 0.5s linear;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#TvsConsolesProducts {
+    background-color: rgba(255, 235, 205, 0.37);
+    align-content: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    filter: contrast(300%);
+}
+
+#TvsConsolesWelcomeH1 {
+    background: linear-gradient(black, rgba(128, 128, 128));
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+}
+
+#productsInfoP {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+#productsTable {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgba(241, 201, 141, 0.9);
+    font-size: 18px;
+    text-align: center;
+}
+
+.TechArticle {
+    position: relative;
+    ;
+    border: black solid 1px;
+    font-size: 22px;
+    width: 30%;
+    margin-bottom: 35px;
+}
+
+.TechArticle p {
+    border: solid black 1px;
+    text-align: center;
+}
+
+.TechArticle div {
+    border: black 3px solid;
+    text-align: center;
+}
+
+
+#productsTable {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.addToTheCart {
+    color: white;
+    transition: ease-in-out 1s;
+    box-shadow: 1px 1px 7px 4px rgba(0, 0, 0, 0.6);
+    background-color: black;
+    margin: 15px;
+}
+
+.addToTheCart:hover {
+    transform: scale(1.2);
+}
+
+#FotterNav1 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#FotterNav1 {
+    filter: saturate(4);
+    color: white;
+}
+
+.Bottomnav1 {
+    display: inline;
+    flex-basis: 18%;
+    font-weight: bolder;
+    border-radius: 15px;
+    border-left: 3px solid black;
+    transition: 1s;
+    border-right: solid black 3px;
+    border-top: 3px solid black;
+    border-bottom: solid black 3px;
+    box-shadow: 2px 2px 13px 6px black
+}
+
+.Footer1Img {
+    position: relative;
+    top: 11px;
+    transition: 1s;
+}
+
+.Bottomnav1:hover {
+    transform: scale(1.1);
+}
