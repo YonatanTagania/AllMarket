@@ -176,7 +176,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(16, 1, 128, 0.9);
     height: 60px;
     text-align: center;
     font-size: 22px;
@@ -209,3 +209,39 @@ body {
 .Bottomnav1:hover {
     transform: scale(1.1);
 }
+
+@media screen and (min-width:0px) and (max-width:426px){
+    #navBar{position: relative;RIGHT: 40px; width: 100%;}
+    .navBarItems{margin: 2px;box-shadow: none;border:  solid black 2px;}
+    .TechArticle{width: 90%;}
+    .productImg{width: 100%;}
+    
+#FotterNav1 {filter: saturate(2);position: relative; right: 5px;}
+#fotterNav1 li{position: relative; left:10px;}
+#FotterNav1 span{display: none;}
+}
+
+
+@media screen  and (min-width:426px) and (max-width:768px){
+  #navBar{position: relative;RIGHT: 40px; width: 100%;}
+  .navBarItems{margin: 2px;box-shadow: none;border:  solid black 2px;}
+  .TechArticle{width: 49%;}
+  .productImg{width: 100%;}
+  
+#FotterNav1 {filter: saturate(2);position: relative; right: 5px;}
+#fotterNav1 li{position: relative; left:10px;}
+#FotterNav1 span{display: none;}
+}
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+  #navBar{position: relative;RIGHT: 40px; width: 100%;}
+  .navBarItems{margin: 2px;box-shadow: none;border:  solid black 2px;}
+  .TechArticle{width: 30%;}
+  .productImg{width: 100%;}
+  
+#FotterNav1 {filter: saturate(2);position: relative; right: 5px;}
+#fotterNav1 li{position: relative; left:10px;}
+#FotterNav1 span{display: none;} 
+}
+
+

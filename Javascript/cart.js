@@ -62,3 +62,4 @@ clickToPay.onclick = () => {
     payP.style.marginBottom = "50px"
     clickToPay.style.display = "none"
 }
+

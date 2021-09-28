@@ -165,10 +165,3 @@ function addCartNum() {
     cartItems.innerText = addedProduct
 }
 
-
-    // לחזור לזה בסוף הפרוייקט אם יהיה זמן 
-
-
-    // let cartSize = setInterval(() => {
-    //     cartLocaction.style.transform = `scale(${1.1})`;
-    // }, 200)

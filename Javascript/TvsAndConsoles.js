@@ -174,5 +174,3 @@ TechAddToCart23.onclick = () => {
     cartProducts.push(products[23])
     addCartNum()
 }
-
-

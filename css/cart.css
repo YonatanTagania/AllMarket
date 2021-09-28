@@ -38,7 +38,7 @@ color: white;}
 #clickToPay{transition: ease-in-out 1s;background: blue;color: white;margin-bottom: 15px;font-weight: bolder;}
 #clickToPay:hover{transform: scale(1.5);}
 #FotterNav1 ul {display: flex; flex-direction: row; flex-wrap: wrap;
-    justify-content: space-around;background-color: rgba(0, 0, 0, 0.9); height: 60px;
+    justify-content: space-around;background-color: rgba(16, 1, 128, 0.9); height: 60px;
 text-align: center;
 font-size: 22px;}
     #FotterNav1{filter: saturate(4);
@@ -50,3 +50,34 @@ font-size: 22px;}
           .Footer1Img{position: relative; top: 11px;transition: 1s;}
          
           .Bottomnav1:hover{transform: scale(1.1);}
+
+          
+          @media screen and (min-width:0px) and (max-width:426px){
+            #navBar{position: relative;RIGHT: 40px; width: 100%;}
+            .navBarItems{margin: 2px;box-shadow: none;border:  solid black 2px;}
+        #tableArticle{width: 100%;}
+        #tableArticle tr{width: 100%;display: block;}
+        #tableArticle th{width: 100%;display: none;}
+        #tableArticle td{width: 100%;display: block;}
+        #FotterNav1 {filter: saturate(2);position: relative; right: 5px;}
+        #fotterNav1 li{position: relative; left:10px;}
+        #FotterNav1 span{display: none;}
+        }
+        
+        
+        @media screen  and (min-width:426px) and (max-width:768px){
+          #navBar{position: relative;RIGHT: 40px; width: 100%;}
+          .navBarItems{margin: 2px;box-shadow: none;border:  solid black 2px;}        
+        #FotterNav1 {filter: saturate(2);position: relative; right: 5px;}
+        #fotterNav1 li{position: relative; left:10px;}
+        #FotterNav1 span{display: none;}
+        }
+        
+        @media screen and (min-width:769px) and (max-width:1025px) {
+          #navBar{position: relative;RIGHT: 40px; width: 100%;}
+          .navBarItems{margin: 2px;box-shadow: none;border:  solid black 2px;}
+        #FotterNav1 {filter: saturate(2);position: relative; right: 5px;}
+        #fotterNav1 li{position: relative; left:10px;}
+        #FotterNav1 span{display: none;} 
+        }
+
