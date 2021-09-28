@@ -28,12 +28,13 @@ function nextImg2() {
         if (counter >= 2) {
             counter = 0
         }
+    }
         changeImg24.onclick = () => {
             imgOfItem24.src = products[24].pictures[counter++]
             if (counter >= 2) {
                 counter = 0
             }
-        }
+        
     }
     changeImg26.onclick = () => {
         imgOfItem26.src = products[26].pictures[counter++]
@@ -102,60 +103,72 @@ nextImg2()
 ToolsAddToCart24.onclick = () => {
     cartProducts.push(products[24])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart25.onclick = () => {
     cartProducts.push(products[25])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart26.onclick = () => {
     cartProducts.push(products[26])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart27.onclick = () => {
     cartProducts.push(products[27])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart28.onclick = () => {
     cartProducts.push(products[28])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart29.onclick = () => {
     cartProducts.push(products[29])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart30.onclick = () => {
     cartProducts.push(products[30])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart31.onclick = () => {
     cartProducts.push(products[31])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart32.onclick = () => {
     cartProducts.push(products[32])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart33.onclick = () => {
     cartProducts.push(products[33])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart34.onclick = () => {
     cartProducts.push(products[34])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 ToolsAddToCart35.onclick = () => {
     cartProducts.push(products[35])
     addCartNum()
+    numberOfItemsInCart()
 
 }

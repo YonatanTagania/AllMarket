@@ -548,3 +548,14 @@ function addCartNum() {
     addedProduct++
     cartItems.innerText = addedProduct
 }
+
+function numberOfItemsInCart() {
+    let paySum = 0
+    for (i = 0; i < cartProducts.length; i++) {
+        paySum += cartProducts[i].price
+    }
+  
+    amountToPay.innerText = paySum
+    numOfItemsInCart.innerText = cartProducts.length
+    numOfItemsInCart.style.textDecoration = "underline";
+}

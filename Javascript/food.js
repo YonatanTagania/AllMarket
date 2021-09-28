@@ -95,61 +95,73 @@ nextImg0()
 foodAddToCart0.onclick = () => {
     cartProducts.push(products[0])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart1.onclick = () => {
     cartProducts.push(products[1])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart2.onclick = () => {
     cartProducts.push(products[2])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart3.onclick = () => {
     cartProducts.push(products[3])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart4.onclick = () => {
     cartProducts.push(products[4])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart5.onclick = () => {
     cartProducts.push(products[5])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart6.onclick = () => {
     cartProducts.push(products[6])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart7.onclick = () => {
     cartProducts.push(products[7])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart8.onclick = () => {
     cartProducts.push(products[8])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart9.onclick = () => {
     cartProducts.push(products[9])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart10.onclick = () => {
     cartProducts.push(products[10])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 foodAddToCart11.onclick = () => {
     cartProducts.push(products[11])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 let addButton = document.getElementsByClassName("addToTheCart");

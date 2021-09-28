@@ -110,70 +110,84 @@ nextImg3()
 phonesAddToCart36.onclick = () => {
     cartProducts.push(products[36])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart37.onclick = () => {
     cartProducts.push(products[37])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart38.onclick = () => {
     cartProducts.push(products[38])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart39.onclick = () => {
     cartProducts.push(products[39])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart40.onclick = () => {
     cartProducts.push(products[40])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart41.onclick = () => {
     cartProducts.push(products[41])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart42.onclick = () => {
     cartProducts.push(products[42])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart43.onclick = () => {
     cartProducts.push(products[43])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart44.onclick = () => {
     cartProducts.push(products[44])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart45.onclick = () => {
     cartProducts.push(products[45])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart46.onclick = () => {
     cartProducts.push(products[46])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart47.onclick = () => {
     cartProducts.push(products[47])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart48.onclick = () => {
     cartProducts.push(products[48])
     addCartNum()
+    numberOfItemsInCart()
 
 }
 phonesAddToCart49.onclick = () => {
     cartProducts.push(products[49])
     addCartNum()
+    numberOfItemsInCart()
 
 }

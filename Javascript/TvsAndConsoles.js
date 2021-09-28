@@ -120,57 +120,69 @@ nextImg()
 TechAddToCart12.onclick = () => {
     cartProducts.push(products[12])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart13.onclick = () => {
     cartProducts.push(products[13])
     addCartNum()
+    numberOfItemsInCart()
 }
 TechAddToCart14.onclick = () => {
     cartProducts.push(products[14])
     addCartNum()
+    numberOfItemsInCart()
 }
 TechAddToCart15.onclick = () => {
     cartProducts.push(products[15])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart16.onclick = () => {
     cartProducts.push(products[16])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart17.onclick = () => {
     cartProducts.push(products[17])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart18.onclick = () => {
     cartProducts.push(products[18])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart19.onclick = () => {
     cartProducts.push(products[19])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart20.onclick = () => {
     cartProducts.push(products[20])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart21.onclick = () => {
     cartProducts.push(products[21])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart22.onclick = () => {
     cartProducts.push(products[22])
     addCartNum()
+    numberOfItemsInCart()
 }
 
 TechAddToCart23.onclick = () => {
     cartProducts.push(products[23])
     addCartNum()
+    numberOfItemsInCart()
 }
