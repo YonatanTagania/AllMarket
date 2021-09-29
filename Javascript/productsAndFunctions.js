@@ -553,6 +553,7 @@ function numberOfItemsInCart() {
     let paySum = 0
     for (i = 0; i < cartProducts.length; i++) {
         paySum += cartProducts[i].price
+        console.log(cartProducts);
     }
   
     amountToPay.innerText = paySum
